@@ -1,5 +1,5 @@
 ; build instructions:
-;   nasm -f elf64 freelancer -o freelancer.o
+;   nasm -f elf64 freelancer.asm -o freelancer.o
 ;   ld -o freelancer.elf freelancer.o -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2
 ;
 ; optional:
